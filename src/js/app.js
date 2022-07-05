@@ -16,11 +16,11 @@ function App() {
 
 	return (
 		<div>
-			<Form newTaskList={newTaskList} />
+			<Form newTaskList={newTaskList}/>
 
 			<div >
-				{taskList.map((e, index) => (
-					<Home key={index} task={e} erase={erase} id={index} />
+				{taskList.map((e, index) =>(
+					<Home key={index} task={e} erase={erase} id={index}/>
 				))}
 			</div>
 		</div>
